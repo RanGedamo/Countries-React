@@ -1,8 +1,25 @@
-# React + Vite
+# מטלה 05.01.25
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## דרישות המטלה
 
-Currently, two official plugins are available:
+1 - **שינוי מקור הנתונים:**
+   - להחליף את משיכת המידע מקובץ `CountriesData.json` למשיכה מ-API בכתובת:
+     ```
+     https://restcountries.com/v3.1/all
+     ```
+   - שימו לב שה-API הזה מחזיר המון מידע שאולי לא רלוונטי אליכם. 
+     - **מומלץ לסנן נתונים לפי דרישה.**
+     - ניתן לעיין בתיעוד של ה-API כאן:
+       [REST Countries API Documentation](https://restcountries.com/#endpoints-filter-response).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2 - **פתיחת Modal להצגת פרטי מדינה:**
+   - בלחיצה על אחת המדינות בעמוד הראשי, ייפתח **Modal** (פופאפ) מעל התוכן הראשי של האתר.
+   - ה-Modal יציג מידע מפורט על המדינה הספציפית שנבחרה.
+   - ניתן לכלול ב-Modal נתונים נוספים מעבר למה שמוצג בעמוד הראשי.
+
+## הנחיות נוספות
+- **ניהול גרסאות:**
+  - צרו `BRANCH` חדש מהמטלה האחרונה שביצעתם.
+  - לאחר השלמת המשימה, פתחו **Pull Request (PR)** תחת השם `"API"` כדי שנדע לזהות.
+
+בהצלחה!

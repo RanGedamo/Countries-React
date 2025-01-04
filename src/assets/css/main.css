@@ -50,7 +50,7 @@
   padding: 15px;
   padding-left: 60px;
   font-size: 18px;
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: inherit;
   outline: none;
   border: none;
@@ -155,6 +155,18 @@
   place-items: center;
 }
 
+.pagination {
+  margin: 30px 0 30px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 250px;
+  align-self: center;
+}
+
+.no-results{
+  text-align: center;
+  width: 100%;
+}
 @media (min-width: 40em) {
   .countries-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -181,7 +193,10 @@
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
   background: white;
   overflow: hidden;
-  transition: transform 0.3s linear, box-shadow 0.2s linear, background-color 0.2s linear;
+  transition:
+    transform 0.3s linear,
+    box-shadow 0.2s linear,
+    background-color 0.2s linear;
 }
 
 .countries-grid .country:hover {
